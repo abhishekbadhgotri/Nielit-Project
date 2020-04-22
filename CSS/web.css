@@ -167,7 +167,6 @@ img {vertical-align: middle;}
 	border-color: black;
 	border-width: 9px;
 	align-content: center;
-	background-color: rgba(255,0,0,0.8);
 	background-image: url(../Pictures/black-flat-screen-computer-monitor-1714208.jpg);
 	background-size: 100%;
 }
@@ -221,12 +220,10 @@ img {vertical-align: middle;}
 .login {
 	margin: 20px;
 	padding: 20px 20px 10% 20px;
-/*	padding-bottom: 10%; */
 	border-style: solid;
 	border-color: black;
 	border-width: 9px;
 	align-content: center;
-	background-color: rgba(255,0,0,0.8);
 	background-image: url(../Pictures/photography-of-roadway-during-dusk-1034662.jpg);
 	background-size: 100%;
 }
