@@ -129,8 +129,8 @@ body
 }
 .login {
 	margin: 20px;
-	padding: 20px;
-	padding-bottom: 10%;
+	padding: 20px 20px 10% 20px;
+/*	padding-bottom: 10%; */
 	border-style: solid;
 	border-color: black;
 	border-width: 9px;
