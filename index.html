@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Cyber-Meet</title>
+<link rel="stylesheet" type="text/css" href="CSS\web.css">
+</head>
+<body onload="currentSlide(1)">
+<script src="SCRIPT\node.js"></script>
+<div class="header" id="part1">
+<h1><a href="#"> Cyber-Meet </a></h1>
+</div>
+<div class="topnav">
+	<b><a href="#part1">HOME</a>
+  <a href="#part2">REGISTRATION</a>
+  <a href="#part4" style="float:right;">ABOUT</a>
+  <a href="#part3" style="float:right;">LOGIN</a></b>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="Chicago.jpg" style="width:100%">
+  <div class="text">Chicago</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="los_angeles.jpg" style="width:100%">
+  <div class="text">Los Angeles</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="Singapore.jpg" style="width:100%">
+  <div class="text">Singapore</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Tokyo.jpg" style="width:100%">
+  <div class="text">Tokyo</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<div class="reg" id="part2">
+	<center><h1>New Registration</h1>
+	<form><table>
+			<tr>
+				<td><p>First Name: </p></td>
+				<td><input type="text" name="fname"></td>
+			</tr>
+			<tr>
+				<td><p>Last Name: </p></td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+				<td><p>Gender: </p></td>
+				<td>
+					<select>
+						<option>Male</option>
+						<option>Female</option>
+						<option>Others</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><p>E-mail id: </p></td>
+				<td><input type="E-mail" name="email"></td>
+			</tr>
+			<tr>
+				<td><p>Confirm E-mail id: </p></td>
+				<td><input type="E-mail" name="email"></td>
+			</tr>
+			<tr>
+				<td><p>Date of Birth: </p></td>
+				<td><input type="Date" name="db"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><center><input type="submit" value="submit"></center></td>
+			</tr>
+		</table>
+	</form></center>
+</div>
+<div class="login" id="part3">
+	<center><h1>Login</h1>
+	<form><table>
+			<tr>
+				<td><p>E-mail id: </p></td>
+				<td><input type="E-mail" name="email"></td>
+			</tr>
+			<tr>
+				<td><p>Password: </p></td>
+				<td><input type="Password" name="pass"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><center><input type="submit" value="submit"></center></td>
+			</tr>
+		</table>
+	</form></center>
+</div>
+<div class="about" id="part4">
+<h1>About</h1>
+</div>
+<div class="footer">
+	<p>Designed & Developed By Abhishek Badhgotri</p>
+	<p style="font-size:20px">@copyright 2019-2020</p>
+</div>
+</body>
+</html>

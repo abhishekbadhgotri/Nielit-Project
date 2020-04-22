@@ -1,0 +1,328 @@
+html {
+  scroll-behavior: smooth;
+}
+body
+{
+	margin: 0px;
+	background-image: url("../Pictures/black-textile-952670.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: repeat;
+}
+.header
+{
+	font-size: 200%;
+	text-align: center;
+	padding: 1px;
+	background-color:rgba(0,0,0,.2);
+	background-image: url("../Pictures/photography-of-roadway-during-dusk-1034662.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+.header a{
+//	display: inline;
+	color: white;
+	text-shadow:5px 5px 5px black;
+	font-family: sans-serif;
+	text-align:center;
+	text-decoration: none;
+}
+.header a:hover{
+	color: red;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.9);
+  background-image: linear-gradient(to bottom,rgba(128,128,128,.5) 50%,rgba(0,0,0,.9) 50%);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  font-family: sans-serif;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgba(169,169,169,0.2);
+  color: red;
+}
+.part{
+	border-style: solid;
+	border-color: grey;
+	border-width: medium;
+	margin: 20px;
+	background-color: black;
+}
+.part li{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: grey;
+	margin: 8px;
+}
+.reg {
+	margin: 20px;
+	padding: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 9px;
+	align-content: center;
+	background-color: rgba(255,0,0,0.8);
+	background-image: url(../Pictures/black-flat-screen-computer-monitor-1714208.jpg);
+	background-size: 100%;
+}
+.reg h1{
+	color: red;
+	padding: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 20px;
+	background-color: black;
+}
+.reg p {
+	color: red;
+	padding: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 20px;
+	background-color: black;
+	text-align: left;
+	font-size: 20px;
+}
+.reg input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.reg input[type=E-mail], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.reg input[type=date], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.reg input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login {
+	margin: 20px;
+	padding: 20px;
+	padding-bottom: 10%;
+	border-style: solid;
+	border-color: black;
+	border-width: 9px;
+	align-content: center;
+	background-color: rgba(255,0,0,0.8);
+	background-image: url(../Pictures/photography-of-roadway-during-dusk-1034662.jpg);
+	background-size: 100%;
+}
+.login h1{
+	color: red;
+	padding: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 32%;
+	margin-right: 32%;
+	margin-bottom: 20px;
+	background-color: black;
+}
+.login p {
+	color: red;
+	padding: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 20px;
+	background-color: black;
+	text-align: left;
+	font-size: 25px;
+}
+.login table{
+	padding: 80px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.login input[type=E-mail], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.login input[type=password], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.login input[type=submit] {
+  background-color: #4CAF50;
+  margin-top: 20px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.about{
+	border-style: solid;
+	border-color: grey;
+	border-width: medium;
+	margin: 20px;
+	background-color: black;
+}
+.about h1 {
+	color: white;
+	padding: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 20px;
+	background-color: black;
+	text-align: center;
+	font-size: 25px;
+}
+.footer
+{
+	font-size: 180%; 
+	border-top-style: solid;
+	border-color: grey;
+	border-width: medium;
+	text-align: center;
+	padding: 40px;
+	background-color: black;
+}
+.footer p {
+	color: white;
+	padding: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 20px;
+	background-color: black;
+	text-align: center;
+	font-size: 25px;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  background-color: black;
+  position: relative;
+  margin: 20px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
