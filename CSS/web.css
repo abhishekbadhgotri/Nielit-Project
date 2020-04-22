@@ -162,8 +162,7 @@ body
 }
 .login table{
 	padding: 80px;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin: 5% 5% 5% 5%;
 }
 .login input[type=E-mail], select, textarea {
 	width: 100%;
