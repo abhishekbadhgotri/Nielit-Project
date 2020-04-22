@@ -161,7 +161,7 @@ body
 	font-size: 25px;
 }
 .login table{
-	padding: 80px;
+/*	padding: 80px;*/
 /*	margin: 5% 5% 5% 5%; */
 }
 .login input[type=E-mail], select, textarea {
