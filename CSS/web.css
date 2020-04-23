@@ -168,10 +168,10 @@ img {vertical-align: middle;}
 	align-content: center;
 	background-color: black;
 }
-.h {
+.h h1{
 	color: red;
 	padding: 5px;
-	font-size: 30px;
+	word-wrap: break-word;
 	font-family: sans-serif;
 	font-weight: bold;
 	border-style: solid;
