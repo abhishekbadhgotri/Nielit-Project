@@ -168,15 +168,16 @@ img {vertical-align: middle;}
 	align-content: center;
 	background-color: black;
 }
-.reg h1{
+.h {
 	color: red;
 	padding: 5px;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bold;
 	border-style: solid;
 	border-width: medium;
 	border-radius: 4px;
-	font-family: sans-serif;
-	font-weight: bold;
-	margin: 2% 32% 4% 32%;
+	margin: 2% 33% 4% 33%;
 }
 .reg p {
 	color: white;
@@ -232,17 +233,6 @@ img {vertical-align: middle;}
 	border-width: medium;
 	align-content: center;
 	background-color: black;
-}
-.login h1{
-	color: red;
-	padding: 5px;
-	font-family: sans-serif;
-	font-weight: bold;
-	border-style: solid;
-	border-width: medium;
-	border-radius: 4px;
-	margin: 2% 33% 4% 33%;
-/*	background-color: black;*/
 }
 .login p {
 	color: white;
