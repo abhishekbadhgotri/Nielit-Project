@@ -168,6 +168,9 @@ img {vertical-align: middle;}
 	align-content: center;
 	background-color: black;
 }
+.h{
+	max-width:35%;
+}
 .h h1{
 	color: red;
 	padding: 5px;
@@ -177,7 +180,8 @@ img {vertical-align: middle;}
 	border-style: solid;
 	border-width: medium;
 	border-radius: 4px;
-	margin: 2% 33% 4% 33%;
+	margin-top: 2%;
+	margin-bottom: 4%;
 }
 .reg p {
 	color: white;
