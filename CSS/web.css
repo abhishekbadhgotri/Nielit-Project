@@ -16,7 +16,6 @@ body
 	font-size: 200%;
 	text-align: center;
 	padding: 1px;
-	background-color:rgba(0,0,0,.2);
 	background-image: url("../Pictures/photography-of-roadway-during-dusk-1034662.jpg");
 	background-size: 100%;
 	background-position: center;
@@ -167,8 +166,7 @@ img {vertical-align: middle;}
 	border-color: black;
 	border-width: 9px;
 	align-content: center;
-	background-image: url(../Pictures/black-flat-screen-computer-monitor-1714208.jpg);
-	background-size: 100%;
+	background-color:rgba(128,128,128,.5);
 }
 .reg h1{
 	color: red;
@@ -224,8 +222,7 @@ img {vertical-align: middle;}
 	border-color: black;
 	border-width: 9px;
 	align-content: center;
-	background-image: url(../Pictures/photography-of-roadway-during-dusk-1034662.jpg);
-	background-size: 100%;
+	background-color:rgba(128,128,128,.5);
 }
 .login h1{
 	color: red;
