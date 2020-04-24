@@ -1,8 +1,11 @@
 html {
   scroll-behavior: smooth;
+  height:100%
+  margin: 0px;
 }
 body
 {
+	height:100%;
 	margin: 0px;
 	font-family: Verdana, sans-serif;
 	background-image: url("../Pictures/black-textile-952670.jpg");
@@ -135,18 +138,9 @@ img {vertical-align: middle;}
 
 /* Fading animation */
 .fade {
-/*  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-*/animation-name: fade;
+  animation-name: fade;
   animation-duration: 1.5s;
 }
-/*
-@-webkit-keyframes fade {
-
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-*/
 @keyframes fade {
 
   from {opacity: .4} 
@@ -229,13 +223,17 @@ img {vertical-align: middle;}
   cursor: pointer;
 }
 .login {
-	margin: 20px;
-	padding: 30px;
+	height: 570px;
+	margin: 25px;
+	padding: 80px;
 	border-style: solid;
 	border-color: grey;
 	border-width: medium;
 	align-content: center;
 	background-color: black;
+}
+.login h1{
+	margin: 2% 0% 15% 0%;
 }
 .login p {
 	color: white;
@@ -243,6 +241,7 @@ img {vertical-align: middle;}
 	font-family: sans-serif;
 	font-weight: bold;
 	margin: 20px;
+	margin-top:25px;
 	border: none;
 	border-radius: 4px;
 	background-color: rgba(128,128,128,.5);
@@ -268,7 +267,7 @@ img {vertical-align: middle;}
   font-size: 20px;
   font-family: sans-serif;
   font-weight: bold;
-  margin-top: 20px;
+  margin: 15%;
   color: red;
   padding: 12px 20px;
   border-style: solid;
@@ -276,7 +275,61 @@ img {vertical-align: middle;}
   border-radius: 4px;
   cursor: pointer;
 }
+.contact{
+	border-style: solid;
+	border-color: grey;
+	border-width: medium;
+	margin: 20px;
+	background-color: black;
+}
+.contact h1 {
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 70px 70px 40px 70px;
+	background-color: black;
+	text-align: center;
+}
+.contact h3 {
+	color:white;
+	margin:5%;
+}
+.contact input[type=text], select, textarea {
+
+	width: 70%;
+	margin: 20px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.contact input[type=E-mail], select, textarea {
+	width: 70%;
+	margin: 20px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.contact input[type=submit] {
+  background-color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 25px 20px 70px 20px;
+  color: red;
+  padding: 12px 20px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact p{
+	color: white;
+	margin: 10px 5% 10px 5%;
+}
 .about{
+	height: 720px;
 	border-style: solid;
 	border-color: grey;
 	border-width: medium;
@@ -285,13 +338,12 @@ img {vertical-align: middle;}
 }
 .about h1 {
 	color: white;
-	padding: 5px;
+/*	padding: 5px;*/
 	font-family: sans-serif;
 	font-weight: bold;
-	margin: 20px;
+	margin: 70px;
 	background-color: black;
 	text-align: center;
-	font-size: 25px;
 }
 .about p{
 	color: white;
