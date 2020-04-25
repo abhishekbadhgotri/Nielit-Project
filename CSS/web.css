@@ -227,6 +227,7 @@ img {vertical-align: middle;}
 .login {
 	height: 570px;
 	margin: 20px;
+	padding: 5%;
 	border-style: solid;
 	border-color: grey;
 	border-width: medium;
@@ -249,14 +250,14 @@ img {vertical-align: middle;}
 	font-size: 20px;
 }
 .login input[type=E-mail], select, textarea {
-	width: 70%;
+	width: 75%;
 	padding: 12px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	resize: both;
 }
 .login input[type=password], select, textarea {
-	width: 70%;
+	width: 75%;
 	padding: 12px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -300,7 +301,7 @@ img {vertical-align: middle;}
 }
 .contact input[type=text], select, textarea {
 
-	width: 70%;
+	width: 75%;
 	margin: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -308,7 +309,7 @@ img {vertical-align: middle;}
 	resize: vertical;
 }
 .contact input[type=E-mail], select, textarea {
-	width: 70%;
+	width: 75%;
 	margin: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
