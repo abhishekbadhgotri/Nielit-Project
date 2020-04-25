@@ -163,7 +163,7 @@ img {vertical-align: middle;}
 }
 .h{
 	max-width:35%;
-	margin:20px;
+	margin:20px 0px 20px 0px;
 }
 .h h1{
 	color: red;
@@ -174,7 +174,6 @@ img {vertical-align: middle;}
 	border-style: solid;
 	border-width: medium;
 	border-radius: 4px;
-	margin: 2% 0% 4% 0%;
 }
 .reg p {
 	color: white;
@@ -233,7 +232,7 @@ img {vertical-align: middle;}
 	background-color: black;
 }
 .login h1{
-	margin: 2% 0% 15% 0%;
+	margin: 2% 0px 15% 0px;
 }
 .login p {
 	color: white;
