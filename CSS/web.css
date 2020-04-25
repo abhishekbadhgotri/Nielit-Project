@@ -188,7 +188,7 @@ img {vertical-align: middle;}
 	font-size: 20px;
 }
 .reg input[type=text], select, textarea {
-	width: 70%;
+	width: 75%;
 	margin: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -196,7 +196,7 @@ img {vertical-align: middle;}
 	resize: vertical;
 }
 .reg input[type=E-mail], select, textarea {
-	width: 70%;
+	width: 75%;
 	margin: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -204,7 +204,7 @@ img {vertical-align: middle;}
 	resize: vertical;
 }
 .reg input[type=date], select, textarea {
-	width: 70%;
+	width: 75%;
 	margin: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
