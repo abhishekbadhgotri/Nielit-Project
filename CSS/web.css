@@ -180,7 +180,6 @@ img {vertical-align: middle;}
 	padding: 12px;
 	font-family: sans-serif;
 	font-weight: bold;
-/*	margin: 20px;*/
 	border: none;
 	border-radius: 4px;
 	background-color: rgba(128,128,128,.5);
@@ -235,7 +234,7 @@ img {vertical-align: middle;}
 	background-color: black;
 }
 .login h1{
-	margin: 2% 0px 15% 0px;
+	margin: 2% 5% 15% 5%;
 }
 .login p {
 	color: white;
