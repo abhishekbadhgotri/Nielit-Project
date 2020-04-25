@@ -188,7 +188,7 @@ img {vertical-align: middle;}
 	font-size: 20px;
 }
 .reg input[type=text], select, textarea {
-	width: 100%;
+	width: 70%;
 	margin: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -196,7 +196,7 @@ img {vertical-align: middle;}
 	resize: vertical;
 }
 .reg input[type=E-mail], select, textarea {
-	width: 100%;
+	width: 70%;
 	margin: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -204,7 +204,7 @@ img {vertical-align: middle;}
 	resize: vertical;
 }
 .reg input[type=date], select, textarea {
-	width: 100%;
+	width: 70%;
 	margin: 20px;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -249,14 +249,14 @@ img {vertical-align: middle;}
 	font-size: 20px;
 }
 .login input[type=E-mail], select, textarea {
-	width: 100%;
+	width: 70%;
 	padding: 12px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	resize: both;
 }
 .login input[type=password], select, textarea {
-	width: 100%;
+	width: 70%;
 	padding: 12px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -294,6 +294,10 @@ img {vertical-align: middle;}
 	color:white;
 	margin:5%;
 }
+.contact p{
+	color: white;
+	margin: 10px 5% 10px 5%;
+}
 .contact input[type=text], select, textarea {
 
 	width: 70%;
@@ -323,10 +327,6 @@ img {vertical-align: middle;}
   border-color: red;
   border-radius: 4px;
   cursor: pointer;
-}
-.contact p{
-	color: white;
-	margin: 10px 5% 10px 5%;
 }
 .about{
 	height: 720px;
