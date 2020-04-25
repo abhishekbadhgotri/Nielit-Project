@@ -154,7 +154,6 @@ img {vertical-align: middle;}
 }
 .reg {
 	margin: 20px;
-	padding: 30px;
 	border-style: solid;
 	border-color: grey;
 	border-width: medium;
@@ -162,8 +161,8 @@ img {vertical-align: middle;}
 	background-color: black;
 }
 .h{
-	max-width:35%;
-	margin:20px 0px 20px 0px;
+	max-width:360px;
+	margin:70px 0px 40px 0px;
 }
 .h h1{
 	color: red;
