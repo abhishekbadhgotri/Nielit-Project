@@ -290,6 +290,7 @@ img {vertical-align: middle;}
 	border-color: grey;
 	border-width: medium;
 	margin: 20px;
+	padding: 10px;
 	overflow: hidden;
 	background-color: black;
 }
