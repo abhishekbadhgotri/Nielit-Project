@@ -36,29 +36,39 @@ body
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: rgba(0,0,0,0.9);
-  background-image: linear-gradient(to bottom,rgba(128,128,128,.5) 50%,rgba(0,0,0,.9) 50%);
-  position: -webkit-sticky;
+  background-color: red;
+/*  background-color: rgba(0,0,0,0.9);
+/*  background-image: linear-gradient(to bottom,rgba(128,128,128,.5) 50%,rgba(0,0,0,.9) 50%);
+*/position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
 }
 
 /* Style the topnav links */
-.topnav a {
+.topnav a{
   float: left;
   display: block;
   font-family: sans-serif;
-  color: grey;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 /* Change color on hover */
 .topnav a:hover {
-  background-color: rgba(169,169,169,0.2);
+/*  background-color: rgba(169,169,169,0.2);*/
+  background-color: black;
   color: red;
 }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+}
+
 .mySlides {display: none}
 img {vertical-align: middle;}
 
