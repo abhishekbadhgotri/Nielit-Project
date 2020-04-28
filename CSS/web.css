@@ -312,9 +312,14 @@ img {vertical-align: middle;}
 	width: 100%;
 	height: auto;
 }
-.note {
-	color: red;
-	padding: 15px;
+.note, ul.a li{
+	text-align: left;
+	color: white;
+	margin: 5px;
+	font-size: 15px;
+}
+.note{
+	margin-top: 20px;
 	text-align: center;
 }
 .services{
@@ -332,7 +337,7 @@ img {vertical-align: middle;}
 	background-color: black;
 	text-align: center;
 }
-.contact ul,li {
+.services ul.b,li {
 	color: white;
 	margin: 55px 5% 55px 5%;
 	font-size:20px;
