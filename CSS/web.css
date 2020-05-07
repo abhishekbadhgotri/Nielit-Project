@@ -68,11 +68,12 @@ body
   display: none;
   position: relative;
 }
-
+/*
 .mySlides {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
+/*
 .slideshow-container {
   max-width: 100%;
   border-style: solid;
@@ -84,6 +85,7 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
+/*
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -100,17 +102,20 @@ img {vertical-align: middle;}
 }
 
 /* Position the "next button" to the right */
+/*
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
+/*
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
+/*
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -122,6 +127,7 @@ img {vertical-align: middle;}
 }
 
 /* Number text (1/4 etc) */
+/*
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -131,6 +137,7 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
+/*
 .dot {
   cursor: pointer;
   height: 15px;
@@ -147,6 +154,7 @@ img {vertical-align: middle;}
 }
 
 /* Fading animation */
+/*
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -158,10 +166,12 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
+/*
 @media only screen and (max-width: 300px) {
 
   .prev, .next,.text {font-size: 11px}
 }
+*/
 .reg {
 	margin: 20px;
 	padding: 5%;
@@ -204,7 +214,7 @@ img {vertical-align: middle;}
 	border-radius: 4px;
 	resize: vertical;
 }
-.reg input[type=E-mail], select, textarea {
+.reg input[type=email], select, textarea {
 	width: 75%;
 	margin: 20px;
 	padding: 12px;
@@ -258,7 +268,7 @@ img {vertical-align: middle;}
 	text-align: left;
 	font-size: 20px;
 }
-.login input[type=E-mail], select, textarea {
+.login input[type=email], select, textarea {
 	width: 75%;
 	padding: 12px;
 	border: 1px solid #ccc;
