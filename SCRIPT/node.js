@@ -7,6 +7,26 @@ function plusSlides(n)
   showSlides(slideIndex += n);
 }
 
+function afterSubmit(var temp)
+{
+	if(temp==1)
+	{
+		document.getElementById("message").textContent = "Thanks for Registration";
+	}
+	else if(temp==2)
+	{
+		document.getElementById("message").textContent = "You're Successfully logged in";
+	}
+	else if(temp==3)
+	{
+		document.getElementById("message").textContent = "Thanks for the submitting your Query!";
+	}
+	else
+	{
+		document.getElementById("message").textContent = "Default message!";
+	}
+}
+
 function currentSlide(n)
 {
   showSlides(slideIndex = n);
