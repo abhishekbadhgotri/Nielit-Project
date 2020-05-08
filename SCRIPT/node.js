@@ -7,6 +7,12 @@ function plusSlides(n)
   showSlides(slideIndex += n);
 }
 
+function extra()
+{
+	location.replace("https://abhishekbadhgotri.github.io/Nielit-Project/AfterSubmit/index.html")
+	document.getElementById("message").textContent = "You're Successfully logged in";
+}
+
 function Submit(temp)
 {
 	if(temp==1)
