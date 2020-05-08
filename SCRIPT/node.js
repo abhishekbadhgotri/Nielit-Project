@@ -7,8 +7,16 @@ function plusSlides(n)
   showSlides(slideIndex += n);
 }
 
-function afterSubmit(temp)
+var extra;
+
+function Submit(x)
 {
+	extra=x;
+}
+function afterSubmit()
+{
+	var temp=extra;
+
 	if(temp==1)
 	{
 		document.getElementById("message").textContent = "Thanks for Registration";
