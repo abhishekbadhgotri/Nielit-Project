@@ -7,7 +7,7 @@ function plusSlides(n)
   showSlides(slideIndex += n);
 }
 
-function afterSubmit(var temp)
+function afterSubmit(var temp=0)
 {
 	if(temp==1)
 	{
