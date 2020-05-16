@@ -29,6 +29,7 @@ body
 	font-family: sans-serif;
 	text-align:center;
 	text-decoration: none;
+	outline-style: none;
 }
 .header a:hover{
 	color: red;
@@ -54,6 +55,7 @@ body
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  outline-style: none;
 }
 /* Change color on hover */
 .topnav a:hover {
