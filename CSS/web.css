@@ -387,7 +387,7 @@ img {vertical-align: middle;}
 	border-radius: 4px;
 	resize: vertical;
 }
-.contact input[type=E-mail], select, textarea {
+.contact input[type=email], select, textarea {
 	width: 75%;
 	margin: 20px;
 	padding: 12px;
